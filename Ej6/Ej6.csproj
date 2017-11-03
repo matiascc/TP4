@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99C8B57B-BEDD-4289-BBD2-429C0C87E304}</ProjectGuid>
+    <ProjectGuid>{53C7EC67-4867-4330-88BC-C0CA02548E8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej1</RootNamespace>
-    <AssemblyName>Ej1</AssemblyName>
+    <RootNamespace>Ej6</RootNamespace>
+    <AssemblyName>Ej6</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapaAplicacion.cs" />
-    <Compile Include="CapaAplicacionException.cs" />
-    <Compile Include="CapaControlador.cs" />
-    <Compile Include="CapaDominio.cs" />
-    <Compile Include="CapaPersistencia.cs" />
-    <Compile Include="CapaVista.cs" />
-    <Compile Include="ErrorPuntualException.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Empleo.cs" />
+    <Compile Include="EvaluadorAntiguedadLaboral.cs" />
+    <Compile Include="EvaluadorCantidadCuotas.cs" />
+    <Compile Include="EvaluadorCompuesto.cs" />
+    <Compile Include="EvaluadorEdad.cs" />
+    <Compile Include="EvaluadorMonto.cs" />
+    <Compile Include="EvaluadorSueldo.cs" />
+    <Compile Include="Fachada.cs" />
+    <Compile Include="GestorPrestamos.cs" />
+    <Compile Include="IEvaluador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolicitudPrestamo.cs" />
+    <Compile Include="TipoCliente.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

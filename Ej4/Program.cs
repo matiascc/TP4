@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej1
+namespace Ej4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            CapaVista prog = new CapaVista();
-            prog.Ejecutar();
-
-            Console.ReadLine();
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99C8B57B-BEDD-4289-BBD2-429C0C87E304}</ProjectGuid>
+    <ProjectGuid>{B88843BB-AFD6-487B-BCCC-9A621CFDB044}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej1</RootNamespace>
-    <AssemblyName>Ej1</AssemblyName>
+    <RootNamespace>Ej4</RootNamespace>
+    <AssemblyName>Ej4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapaAplicacion.cs" />
-    <Compile Include="CapaAplicacionException.cs" />
-    <Compile Include="CapaControlador.cs" />
-    <Compile Include="CapaDominio.cs" />
-    <Compile Include="CapaPersistencia.cs" />
-    <Compile Include="CapaVista.cs" />
-    <Compile Include="ErrorPuntualException.cs" />
+    <Compile Include="Diccionario.cs" />
+    <Compile Include="IRepositorioUsuario.cs" />
+    <Compile Include="OrdenPorCodigo.cs" />
+    <Compile Include="OrdenPorCorreo.cs" />
+    <Compile Include="OrdenPorNombre.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
